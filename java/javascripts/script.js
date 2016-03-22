@@ -1,0 +1,20 @@
+
+$(document).ready(function(){
+    $('#linked').hide();
+    $('#binary').hide();
+    $('#Solitaire').click(function(){
+        $('#binary').hide();
+        $('#linked').hide();
+        $('#soly').fadeIn('slow');
+    });
+    $('#bst').click(function(){
+        $('#linked').hide();
+        $('#soly').hide();
+        $('#binary').fadeIn('slow');
+    });
+    $('#ll').click(function(){
+        $('#soly').hide();
+        $('#binary').hide();
+        $('#linked').fadeIn('slow');
+    });
+});
